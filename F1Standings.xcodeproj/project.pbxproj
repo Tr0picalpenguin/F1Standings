@@ -15,6 +15,7 @@
 		EDA4AD2F2845181A00D6E919 /* StandingsList.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA4AD2E2845181A00D6E919 /* StandingsList.swift */; };
 		EDA4AD3328451FBB00D6E919 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA4AD3228451FBB00D6E919 /* NetworkService.swift */; };
 		EDA4AD352845276100D6E919 /* DriverStandingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA4AD342845276100D6E919 /* DriverStandingsViewController.swift */; };
+		EDA4AD382845305100D6E919 /* DriverTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA4AD372845305100D6E919 /* DriverTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		EDA4AD2E2845181A00D6E919 /* StandingsList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StandingsList.swift; sourceTree = "<group>"; };
 		EDA4AD3228451FBB00D6E919 /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
 		EDA4AD342845276100D6E919 /* DriverStandingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DriverStandingsViewController.swift; sourceTree = "<group>"; };
+		EDA4AD372845305100D6E919 /* DriverTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DriverTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 		EDA4AD302845182400D6E919 /* View Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				EDA4AD362845303200D6E919 /* Subviews */,
 				EDA4AD342845276100D6E919 /* DriverStandingsViewController.swift */,
 			);
 			path = "View Controllers";
@@ -111,6 +114,14 @@
 				EDA4AD3228451FBB00D6E919 /* NetworkService.swift */,
 			);
 			path = "Model Controller";
+			sourceTree = "<group>";
+		};
+		EDA4AD362845303200D6E919 /* Subviews */ = {
+			isa = PBXGroup;
+			children = (
+				EDA4AD372845305100D6E919 /* DriverTableViewCell.swift */,
+			);
+			path = Subviews;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -185,6 +196,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				62ACE51C284501D40059D43A /* AppDelegate.swift in Sources */,
+				EDA4AD382845305100D6E919 /* DriverTableViewCell.swift in Sources */,
 				EDA4AD352845276100D6E919 /* DriverStandingsViewController.swift in Sources */,
 				EDA4AD2F2845181A00D6E919 /* StandingsList.swift in Sources */,
 				EDA4AD3328451FBB00D6E919 /* NetworkService.swift in Sources */,
