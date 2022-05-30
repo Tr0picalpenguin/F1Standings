@@ -13,6 +13,7 @@
 		62ACE525284501D50059D43A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 62ACE524284501D50059D43A /* Assets.xcassets */; };
 		62ACE528284501D50059D43A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 62ACE526284501D50059D43A /* LaunchScreen.storyboard */; };
 		EDA4AD2F2845181A00D6E919 /* StandingsList.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA4AD2E2845181A00D6E919 /* StandingsList.swift */; };
+		EDA4AD3328451FBB00D6E919 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA4AD3228451FBB00D6E919 /* NetworkService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		62ACE527284501D50059D43A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		62ACE529284501D50059D43A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EDA4AD2E2845181A00D6E919 /* StandingsList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StandingsList.swift; sourceTree = "<group>"; };
+		EDA4AD3228451FBB00D6E919 /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 		62ACE51A284501D40059D43A /* F1Standings */ = {
 			isa = PBXGroup;
 			children = (
+				EDA4AD3128451F8C00D6E919 /* Model Controller */,
 				EDA4AD302845182400D6E919 /* View Controllers */,
 				EDA4AD2D2845180600D6E919 /* Model */,
 				62ACE530284502EB0059D43A /* Storyboards */,
@@ -97,6 +100,14 @@
 			children = (
 			);
 			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		EDA4AD3128451F8C00D6E919 /* Model Controller */ = {
+			isa = PBXGroup;
+			children = (
+				EDA4AD3228451FBB00D6E919 /* NetworkService.swift */,
+			);
+			path = "Model Controller";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -172,6 +183,7 @@
 			files = (
 				62ACE51C284501D40059D43A /* AppDelegate.swift in Sources */,
 				EDA4AD2F2845181A00D6E919 /* StandingsList.swift in Sources */,
+				EDA4AD3328451FBB00D6E919 /* NetworkService.swift in Sources */,
 				62ACE51E284501D40059D43A /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
