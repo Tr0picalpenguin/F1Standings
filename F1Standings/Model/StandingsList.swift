@@ -23,7 +23,7 @@ struct ResponseDetails: Decodable {
 
 struct Standings: Decodable {
     enum CodingKeys: String, CodingKey {
-        case list = "StandingLists"
+        case list = "StandingsLists"
     }
     let list: [DriverStandings]
 }
